@@ -1,0 +1,60 @@
+#general-container{
+	margin:auto;
+	margin-top:5px;
+	text-align:center;
+	width:95%;
+}
+
+#add{
+	margin-top:78px;
+	margin-left:150px;
+    float:right;
+    position: absolute;
+}
+
+#add_extra{
+	margin-top:113px;
+	margin-right:200px;
+    float:right;
+    position: absolute;
+}
+
+.pizza{
+	float:right;
+}
+
+.body-login{
+	background-image:url(img/p_login.jpg);
+}
+
+#box-login{
+	background-color:white;
+	width:40%;
+	height:30%;
+	vertical-align:center;
+	margin:2%;
+	border-radius:15%;
+}
+
+#box-register{
+	background-color:white;
+	width:40%;
+	height:30%;
+	vertical-align:center;
+	margin:3%;
+	border-radius:8%;
+}
+
+#desplaz{
+    background:white;
+    color:black;
+	padding:4px;
+	width:80%;
+	height:400px;
+	overflow:auto;
+}
+
+#ticket{
+	font-family:'Courier New';
+	font-size:15px;
+}

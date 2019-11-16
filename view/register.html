@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<link rel='stylesheet' type='text/css' href='../assets/css/estilos.css'>
+	<link rel='stylesheet' type='text/css' href='../assets/css/litera.css'>
+	<title>Regístrate</title>
+</head>
+<body class="body-login">
+	<center>
+		<div id="general-register">
+			<div id="box-register">
+				<br>
+				<h5>Regístrate</h5>
+				<form action="../functions/getlogin.php" method="POST">
+				<input type="text" class="form-control" id="user-login" name="cliente" placeholder="Nombre" style="width:85%" align="center" autocomplete="off" autofocus required>
+				<br>
+				<input type="text" class="form-control" id="user-login" name="user" placeholder="Usuario" style="width:85%" align="center" autocomplete="off" required >
+				<br>
+				<input type="password" class="form-control" id="password-login" name="password" placeholder="Contraseña" style="width:85%" align="center" required>
+				<br>
+				<input type="text" class="form-control" id="user-login" name="domicilio" placeholder="Domicilio" style="width:85%" align="center" autocomplete="off" required>
+				<br>
+				<input type="text" class="form-control" id="user-login" name="telefono" placeholder="Telefono (Opcional)" style="width:85%" autocomplete="off" align="center">
+				<br>
+				<button type="submit" class="btn btn-outline-success" name="boton" value="r" style="width:30%">Registrarse</button>
+				</form>
+				<br>
+				<br>
+			</div>
+		</div>
+	</center>
+</body>
+</html>

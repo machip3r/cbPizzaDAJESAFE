@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<link rel='stylesheet' type='text/css' href='assets/css/estilos.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/litera.css'>
+	<title>Ingresa</title>
+</head>
+<body class="body-login">
+	<center>
+		<div id="general-login">
+			<div id="box-login">
+				<br>
+				<h3>Bienvenido a </h3>
+				<img src="assets/img/logo/1-1.png" style="width:250px; height:250px">
+				<h5>Accede con tu usuario y contraseña</h5>
+				<form action="getlogin.php" method="POST">
+				<input type="text" class="form-control" id="user-login" name="user" placeholder="Usuario" style="width:85%" align="center" autocomplete="off" required autofocus>
+				<br>
+				<input type="password" class="form-control <?php echo $invalid; ?>" id="password-login" name="password" placeholder="Contraseña" style="width:85%" align="center" required>
+				<br>
+				<button type="submit" class="btn btn-outline-success" name="boton" value="i" style="width:30%">Ingresar</button>
+				</form>
+				<a href="view/register.html"><small class="text-muted" style="text-align:left">¿No tienes cuenta? Regístrate aquí</small></a>
+				<br>
+				<br>
+			</div>
+		</div>
+	</center>
+</body>
+</html>
